@@ -1,0 +1,6 @@
+# Markdown files (excluding README)
+*.md
+!README.md
+
+# PDFs
+*.pdf
