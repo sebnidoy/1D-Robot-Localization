@@ -87,28 +87,6 @@ All odometry measurements are always used. Skipping range measurements correspon
 
 ---
 
-## Repository Structure
-
-```
-.
-├── main.py              # Full pipeline: data loading, KF+RTS, plotting
-├── dataset1.mat         # Input dataset (not included - see below)
-├── requirements.txt     # Python dependencies
-├── figs/                # Output figures (generated on run)
-│   ├── sparsity_lhs.png
-│   ├── error_envelope_delta_1.png
-│   ├── error_envelope_delta_10.png
-│   ├── error_envelope_delta_100.png
-│   ├── error_envelope_delta_1000.png
-│   ├── hist_error_delta_1.png
-│   ├── hist_error_delta_10.png
-│   ├── hist_error_delta_100.png
-│   └── hist_error_delta_1000.png
-└── README.md
-```
-
----
-
 ## Setup and Usage
 
 ### 1. Install dependencies
