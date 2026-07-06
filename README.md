@@ -6,9 +6,7 @@ An implementation of sequential state estimation for a mobile robot navigating a
 
 ## Dataset
 
-<video src="dataset1_4x.mov" controls width="100%"></video>
-
-The video above (played at 4× speed) shows the physical experiment used to generate `dataset1.mat` - referred to as the **"Giant Glass of Milk"** dataset. A mobile robot traverses a straight rail back and forth for approximately 20 minutes while two sensors record data simultaneously: a wheel encoder producing noisy velocity readings, and a laser rangefinder measuring distance to a fixed cylindrical landmark. The ground-truth trajectory `x_true` was obtained via a high-accuracy reference system, enabling quantitative evaluation of the estimator.
+The video in the repo shows the physical experiment used to generate `dataset1.mat` - referred to as the **"Giant Glass of Milk"** dataset. A mobile robot traverses a straight rail back and forth for approximately 20 minutes while two sensors record data simultaneously: a wheel encoder producing noisy velocity readings, and a laser rangefinder measuring distance to a fixed cylindrical landmark. The ground-truth trajectory `x_true` was obtained via a high-accuracy reference system, enabling quantitative evaluation of the estimator.
 
 Dataset courtesy of **Prof. Timothy D. Barfoot** (University of Toronto Institute for Aerospace Studies). 
 
